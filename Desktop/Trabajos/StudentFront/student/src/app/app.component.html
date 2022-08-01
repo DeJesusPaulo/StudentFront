@@ -1,0 +1,21 @@
+<div style="text-align: center">
+  <img src="assets/books.jpg" class="img-fluid" 
+  style="position: fixed; right: 0; top: 0; z-index: -100; opacity: 0.50;">
+  
+  <br>
+  <br>
+
+  <img src="./assets/edu_Center.png" style="position:center;" width="350" alt="10px">
+</div>
+<br>
+<br>
+<div class="container"  style="text-align: center;">
+  <button (click)="List_Student()" class="btn btn-info">Students</button>
+  <button (click)="List_Course()" class="btn btn-info" style="margin-left: 10px;">Courses</button>
+  <button (click)="Add()" class="btn btn-info" style="margin-left: 10px;">Add Student</button>
+  <button (click)="Search()" class="btn btn-info" style="margin-left: 10px;">Search</button>
+ 
+</div>
+<hr>
+
+<router-outlet></router-outlet>

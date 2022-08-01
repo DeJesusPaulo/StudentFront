@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+h1{
+    font-family:'Oswald';
+    font-size: 40px;
+    color: #333;
+}
+
+button{
+    font-family: 'Oswald';
+    color:#333;
+    font-size: 20px;
+}
+
+
+
+
+

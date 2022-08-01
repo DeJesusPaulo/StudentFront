@@ -1,0 +1,14 @@
+<div class="container col-md-4">
+    <div class="card">
+       <div class="card-body">
+            <img src="assets/search.png" class="center">
+            <form action="">
+                <div class="form-group">
+                    <label for="">Surname:</label>
+                    <input [(ngModel)]="student.surname" name="Surname" type="text" class="form-control">
+                </div>      
+            </form>
+        </div>      
+        <button (click)="Search()" class="btn btn-danger">SEARCH</button> 
+    </div>
+</div>

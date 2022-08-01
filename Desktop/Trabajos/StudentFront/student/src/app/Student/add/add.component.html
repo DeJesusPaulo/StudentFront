@@ -1,0 +1,26 @@
+<div class="container col-md-4">
+    <div class="card">
+        <div class="card-body">
+            <img src="assets/icons8-nombre-64.png" class="center">
+            <form action="">
+                <div class="form-group">
+                    <label for="">Name:</label>
+                    <input [(ngModel)]="student.name" name="Name" type="text" class="form-control">
+                </div>      
+                <div class="form-group">
+                    <label for="">Surname:</label>
+                    <input [(ngModel)]="student.surname" name="Surname" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">DNI:</label>
+                    <input [(ngModel)]="student.dni" name="DNI" type="text" class="form-control">
+                </div>  
+                <div class="form-group">
+                    <label for="">Email:</label>
+                    <input [(ngModel)]="student.email" name="Email" type="text" class="form-control">
+                </div>  
+            </form>
+        </div>      
+        <button (click)="Save()" class="btn btn-danger">S A V E</button> 
+    </div>
+</div>

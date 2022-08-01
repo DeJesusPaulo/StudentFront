@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+h2{
+    font-family: 'Oswald';
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+}
